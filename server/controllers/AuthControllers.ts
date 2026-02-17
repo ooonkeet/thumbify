@@ -1,7 +1,6 @@
 import { Request, Response } from "express";
 import bcrypt from 'bcrypt'
 import User from "../models/user.js";
-import { error } from "node:console";
 
 // controllers for user registration
 
